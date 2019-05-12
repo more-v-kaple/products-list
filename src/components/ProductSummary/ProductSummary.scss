@@ -1,0 +1,23 @@
+.product-summary {
+    max-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    .name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #333;
+    }
+    .preview {
+        max-width: 400px;
+        object-fit: contain;
+    }
+    .ant-tabs-nav {
+        font-weight: 500;
+    }
+    .ant-tabs-tab-active {
+        font-weight: 700;
+        color: black;
+        border-bottom: 5px solid #1890ff;
+    }
+}
